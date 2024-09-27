@@ -1,0 +1,16 @@
+{
+  "name": "ESPHome",
+  "version": "2021.11.0",
+  "home_assistant_domain": "esphome",
+  "funding_url": "https://esphome.io/guides/supporters.html",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/170_pre.bin", "offset": 0 },
+      ]
+    },
+    }
+  ]
+}
