@@ -75,7 +75,8 @@
         }
       }
     </style>
-    <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
+<script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+
   </head>
   <body>
     <div class="content">
@@ -84,9 +85,9 @@
       <p>1.7.0</p>  
 	  
 	  <esp-web-install-button
-  manifest="Firmware_1.7.0_pre.json"
+  manifest="https://pixelssquad.github.io/nerdminer_ideaspark/Firmware_1.7.0_pre.json"
 ></esp-web-install-button>
-      <p>1.6.3</p> 
+      <p>1.6.0</p> 
 <esp-web-install-button
   manifest="https://firmware.esphome.io/esp-web-tools/manifest.json"
 ></esp-web-install-button>
@@ -98,14 +99,6 @@
         > &mdash;
         Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
     </div>
-    <script>
-      document.querySelectorAll('input[name="type"]').forEach(radio =>
-        radio.addEventListener("change", () => {
-          const button = document.querySelector('esp-web-install-button');
-          button.manifest = `./manifest_${radio.value}.json`;
-          button.classList.remove('invisible');
-        }
-      ));
-    </script>
+    
   </body>
 </html>
