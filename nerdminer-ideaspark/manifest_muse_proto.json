@@ -1,9 +1,0 @@
-{
-  "name": "Squeezelite-ESP32 for Muse Proto",
-  "builds": [
-    {
-      "chipFamily": "ESP32",
-      "parts": [{ "path": "firmware/170pre.bin", "offset": 0 }]
-    }
-  ]
-}
