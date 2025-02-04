@@ -1,0 +1,9 @@
+{
+  "name": "170pre",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [{ "path": "firmware/170pre.bin", "offset": 0 }]
+    }
+  ]
+}
