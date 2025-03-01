@@ -1,0 +1,9 @@
+{
+  "name": "v160",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [{ "path": "firmware/160.bin", "offset": 0 }]
+    }
+  ]
+}
