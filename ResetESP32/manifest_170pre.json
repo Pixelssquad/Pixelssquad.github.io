@@ -1,0 +1,10 @@
+{
+  "name": "Factory Reset",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [{ "path": "firmware/170pre.bin", "offset": 0 }]
+    }
+  ]
+}
