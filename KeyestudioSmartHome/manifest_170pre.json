@@ -1,5 +1,5 @@
 {
-  "name": "Factory Reset",
+  "name": "SmartHomeAP",
   "new_install_prompt_erase": true,
   "builds": [
     {
